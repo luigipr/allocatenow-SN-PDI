@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1523510_alloca_0.AllocateNowUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AllocateNowUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AllocateNowUtils = Class.create();
+AllocateNowUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    checkManagerAlreadyUsed: function() {
+        var managerId = this.getParameter('sysparm_manager_id');
+        var currentBaseId = this.getParameter('sysparm_base_id');
+
+        if (!managerId) {
+            return 'false';
+        }
+
+		var bond = new GlideRecord('x_1523510_alloca_0_bonds');
+        bond.addQuery('user', managerId);
+        bond.addQuery('function.name', 'Base Manager');
+
+        if (currentBaseId) {
+            bond.addQuery('base', '!=', currentBaseId);
+        }
+
+        bond.query();
+
+        if (bond.next()) {
+            return 'true';
+        }
+
+        return 'false';
+    },
+
+	isDuplicateBase: function() {
+    var fieldName = this.getParameter('sysparm_field_name');
+    var fieldValue = this.getParameter('sysparm_field_value');
+    var currentBase = this.getParameter('sysparm_current_base');
+
+    if (!fieldName || !fieldValue) {
+        return 'false';
+    }
+
+    var base = new GlideRecord('x_1523510_alloca_0_bases');
+    base.addQuery(fieldName, fieldValue);
+
+    if (currentBase) {
+        base.addQuery('sys_id', '!=', currentBase);
+    }
+    base.query();
+    return base.hasNext() ? 'true' : 'false';
+},
+
+	isDuplicateCityState: function() {
+		var city = this.getParameter('sysparm_city');
+		var state = this.getParameter('sysparm_state');
+		var currentBase = this.getParameter('sysparm_current_base');
+
+		if (!city || !state) {
+        return 'false';
+    }
+
+		var base = new GlideRecord('x_1523510_alloca_0_bases');
+		base.addQuery('city', city);
+		base.addQuery('state', state);
+
+		if (currentBase) {
+			base.addQuery('sys_id', '!=', currentBase);
+    }
+
+    base.query();
+
+    return base.hasNext() ? 'true' : 'false';
+},
+
+    type: 'AllocateNowUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 17:22:01</sys_created_on>
+        <sys_id>8590198ac3cd8b50ae86ffbc05013198</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>AllocateNowUtils</sys_name>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name>sys_script_include_8590198ac3cd8b50ae86ffbc05013198</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 20:59:28</sys_updated_on>
+    </sys_script_include>
+</record_update>

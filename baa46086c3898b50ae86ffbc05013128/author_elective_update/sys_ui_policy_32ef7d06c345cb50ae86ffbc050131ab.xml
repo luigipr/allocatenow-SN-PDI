@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>false</active>
+        <conditions table="x_1523510_alloca_0_bases">state=^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	if (!g_form.getValue('state')) {
+	return true;
+}
+}]]></script_true>
+        <set_values/>
+        <short_description>on the base creation, blocks city field until state is filled</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 20:46:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32ef7d06c345cb50ae86ffbc050131ab</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>on the base creation, blocks city field until state is filled</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name>sys_ui_policy_32ef7d06c345cb50ae86ffbc050131ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 22:50:56</sys_updated_on>
+        <table>x_1523510_alloca_0_bases</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</application>
+        <file_path/>
+        <instance_id>19d336d4eb4a16d0e483f459bad0cda7</instance_id>
+        <instance_name>dev290286</instance_name>
+        <name>sys_ui_policy_32ef7d06c345cb50ae86ffbc050131ab</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;conditions table="x_1523510_alloca_0_bases"&gt;state=^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	if (!g_form.getValue('state')) {
+	return true;
+}
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;on the base creation, blocks city field until state is filled&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-25 20:46:00&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;32ef7d06c345cb50ae86ffbc050131ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;on the base creation, blocks city field until state is filled&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="AllocateNow" source="x_1523510_alloca_0"&gt;baa46086c3898b50ae86ffbc05013128&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AllocateNow"&gt;baa46086c3898b50ae86ffbc05013128&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_32ef7d06c345cb50ae86ffbc050131ab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-25 22:50:56&lt;/sys_updated_on&gt;&lt;table&gt;x_1523510_alloca_0_bases&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1162163886</payload_hash>
+        <record_name>on the base creation, blocks city field until state is filled</record_name>
+        <reverted_from/>
+        <source>86bd600ac3c98b50ae86ffbc05013119</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 22:50:56</sys_created_on>
+        <sys_id>d27d5e4ec309cb50ae86ffbc0501317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e61558a590000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 22:50:56</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>d27d5e4e1709cb500708ee3c7833687a</update_guid>
+        <update_guid_history>d27d5e4e1709cb500708ee3c7833687a:1162163886,5bb91686c809cb50ba76715e363ef985:479128153,d7e81a427d09cb50de0eec88704d3127:-1121083384,88a89eca5fc5cb50f809a77748cc2892:1122305839,c4045eca0ec5cb5071f96f41a549242e:-1704472165,49719e867ac5cb50a4a5058dd108660d:-975937943,3f419a86a3c5cb5086daebc277273c59:-1880185233,ee215686cac5cb50fdf07fec1161def8:-1513302091,ffa05e4229c5cb5079e90d5b27397fc3:-1187563723,50e04202ed45cb502370b63c338b051d:-973211341</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 23:18:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>62723edec3e64f0da85f23a09b9451d9</sys_id>
+        <sys_metadata>32ef7d06c345cb50ae86ffbc050131ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>on the base creation, blocks city field until state is filled</sys_name>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_parent display_value="Alloca 0 Bases">24f9e802c3c98b50ae86ffbc050131fe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_scope_delete display_value="">88b6babed8094e7c859b80c976bd8d24</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_32ef7d06c345cb50ae86ffbc050131ab</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_32ef7d06c345cb50ae86ffbc050131ab">d27d5e4ec309cb50ae86ffbc0501317b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 23:18:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
