@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>on the base creation, blocks city field until state is filled</description>
+        <field>state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>noCitywoState</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (!newValue) {
+        g_form.clearValue('city');
+        g_form.setDisplay('city', false);
+        return;
+    }
+
+    g_form.setDisplay('city', true);
+
+    if (!isLoading && oldValue !== newValue) {
+        g_form.clearValue('city');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 22:38:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>873ad6c6c309cb50ae86ffbc0501312e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>noCitywoState</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name>sys_script_client_873ad6c6c309cb50ae86ffbc0501312e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 23:28:45</sys_updated_on>
+        <table>x_1523510_alloca_0_bases</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</application>
+        <file_path/>
+        <instance_id>19d336d4eb4a16d0e483f459bad0cda7</instance_id>
+        <instance_name>dev290286</instance_name>
+        <name>sys_script_client_873ad6c6c309cb50ae86ffbc0501312e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;on the base creation, blocks city field until state is filled&lt;/description&gt;&lt;field&gt;state&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;noCitywoState&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (!newValue) {
+        g_form.clearValue('city');
+        g_form.setDisplay('city', false);
+        return;
+    }
+
+    g_form.setDisplay('city', true);
+
+    if (!isLoading &amp;&amp; oldValue !== newValue) {
+        g_form.clearValue('city');
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-25 22:38:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;873ad6c6c309cb50ae86ffbc0501312e&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;noCitywoState&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="AllocateNow" source="x_1523510_alloca_0"&gt;baa46086c3898b50ae86ffbc05013128&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AllocateNow"&gt;baa46086c3898b50ae86ffbc05013128&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_873ad6c6c309cb50ae86ffbc0501312e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-25 23:28:45&lt;/sys_updated_on&gt;&lt;table&gt;x_1523510_alloca_0_bases&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1679705757</payload_hash>
+        <record_name>noCitywoState</record_name>
+        <reverted_from/>
+        <source>86bd600ac3c98b50ae86ffbc05013119</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 23:28:45</sys_created_on>
+        <sys_id>c826224ec349cb50ae86ffbc050131b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e617829040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 23:28:45</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>c826224ea349cb5060af7c4683064eb7</update_guid>
+        <update_guid_history>c826224ea349cb5060af7c4683064eb7:1679705757,54b36e0a0049cb505be049edd761c21f:1461244554,c203a20a7d49cb50419daa06dc1bfcb9:715921387,64bc920e3109cb5053567db7cd5b9682:-1257986773,696c5aca0e09cb50dce0d9ebbc24b924:-1443417538,28ba560a6b09cb507371181428470733:-1257986773,349a9a860209cb50e01eda553360ae02:-1318747674</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 23:37:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>45a644f65d14477a973f648d01ed6aa9</sys_id>
+        <sys_metadata>873ad6c6c309cb50ae86ffbc0501312e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>noCitywoState</sys_name>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_parent display_value="Alloca 0 Bases">24f9e802c3c98b50ae86ffbc050131fe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_scope_delete display_value="">88b6babed8094e7c859b80c976bd8d24</sys_scope_delete>
+        <sys_update_name>sys_script_client_873ad6c6c309cb50ae86ffbc0501312e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_873ad6c6c309cb50ae86ffbc0501312e">c826224ec349cb50ae86ffbc050131b8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 23:37:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
