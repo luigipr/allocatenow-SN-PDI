@@ -33,7 +33,7 @@
         <name>x_1523510_alloca_0_bases</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
         <sys_update_name>sys_dictionary_x_1523510_alloca_0_bases_temperature_c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-25 14:36:35</sys_updated_on>
+        <sys_updated_on>2026-05-28 12:14:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

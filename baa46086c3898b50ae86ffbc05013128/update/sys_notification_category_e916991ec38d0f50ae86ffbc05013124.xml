@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_category">
+    <sys_notification_category action="INSERT_OR_UPDATE">
+        <name>AllocateNow</name>
+        <short_description>Notifications of the AllocateNow app</short_description>
+        <sys_class_name>sys_notification_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 12:18:17</sys_created_on>
+        <sys_id>e916991ec38d0f50ae86ffbc05013124</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AllocateNow</sys_name>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name>sys_notification_category_e916991ec38d0f50ae86ffbc05013124</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-26 12:18:17</sys_updated_on>
+    </sys_notification_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=e916991ec38d0f50ae86ffbc05013124"/>
+</record_update>

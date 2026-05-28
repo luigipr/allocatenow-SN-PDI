@@ -20,513 +20,513 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>AC</label>
+            <label>Acre</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:33</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:33</sys_updated_on>
-            <value>AC</value>
+            <sys_updated_on>2026-05-28 13:07:37</sys_updated_on>
+            <value>Acre</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>AL</label>
+            <label>Alagoas</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:33</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:33</sys_updated_on>
-            <value>AL</value>
+            <sys_updated_on>2026-05-28 13:07:37</sys_updated_on>
+            <value>Alagoas</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>AP</label>
+            <label>Amapa</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:33</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:33</sys_updated_on>
-            <value>AP</value>
+            <sys_updated_on>2026-05-28 13:07:37</sys_updated_on>
+            <value>Amapa</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>AM</label>
+            <label>Amazonas</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:33</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:33</sys_updated_on>
-            <value>AM</value>
+            <sys_updated_on>2026-05-28 13:07:37</sys_updated_on>
+            <value>Amazonas</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>BA</label>
+            <label>Bahia</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:33</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:33</sys_updated_on>
-            <value>BA</value>
+            <sys_updated_on>2026-05-28 13:07:37</sys_updated_on>
+            <value>Bahia</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>CE</label>
+            <label>Ceara</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:33</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:33</sys_updated_on>
-            <value>CE</value>
+            <sys_updated_on>2026-05-28 13:07:37</sys_updated_on>
+            <value>Ceara</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>DF</label>
+            <label>Distrito Federal</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>6</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:33</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:33</sys_updated_on>
-            <value>DF</value>
+            <sys_updated_on>2026-05-28 13:07:37</sys_updated_on>
+            <value>Distrito Federal</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>ES</label>
+            <label>Espirito Santo</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>7</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>ES</value>
+            <sys_updated_on>2026-05-28 13:07:37</sys_updated_on>
+            <value>Espirito Santo</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>GO</label>
+            <label>Goiania</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>8</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>GO</value>
+            <sys_updated_on>2026-05-28 13:07:37</sys_updated_on>
+            <value>Goiania</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>MA</label>
+            <label>Maranhao</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>9</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>MA</value>
+            <sys_updated_on>2026-05-28 13:07:37</sys_updated_on>
+            <value>Maranhao</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>MT</label>
+            <label>Mato Grosso</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>10</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>MT</value>
+            <sys_updated_on>2026-05-28 13:07:37</sys_updated_on>
+            <value>Mato Grosso</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>MS</label>
+            <label>Minas Gerais</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>11</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>MS</value>
+            <sys_updated_on>2026-05-28 13:07:37</sys_updated_on>
+            <value>Minas Gerais</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>MG</label>
+            <label>Mato Grosso do Sul</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>12</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>MG</value>
+            <sys_updated_on>2026-05-28 13:07:37</sys_updated_on>
+            <value>Mato Grosso do Sul</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>PA</label>
+            <label>Para</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>13</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>PA</value>
+            <sys_updated_on>2026-05-28 13:07:38</sys_updated_on>
+            <value>Para</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>PB</label>
+            <label>Paraiba</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>14</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>PB</value>
+            <sys_updated_on>2026-05-28 13:07:38</sys_updated_on>
+            <value>Paraiba</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>PE</label>
+            <label>Pernambuco</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>15</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>PE</value>
+            <sys_updated_on>2026-05-28 13:07:38</sys_updated_on>
+            <value>Pernambuco</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>PR</label>
+            <label>Piaui</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>16</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>PR</value>
+            <sys_updated_on>2026-05-28 13:07:38</sys_updated_on>
+            <value>Piaui</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>PI</label>
+            <label>Parana</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>17</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>PI</value>
+            <sys_updated_on>2026-05-28 13:07:38</sys_updated_on>
+            <value>Parana</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>RJ</label>
+            <label>Rio de Janeiro</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>18</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>RJ</value>
+            <sys_updated_on>2026-05-28 13:07:38</sys_updated_on>
+            <value>Rio de Janeiro</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>RN</label>
+            <label>Rio Grande do Norte</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>19</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>RN</value>
+            <sys_updated_on>2026-05-28 13:07:38</sys_updated_on>
+            <value>Rio Grande do Norte</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>RS</label>
+            <label>Rio Grande do Sul</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>20</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>RS</value>
+            <sys_updated_on>2026-05-28 13:07:38</sys_updated_on>
+            <value>Rio Grande do Sul</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>RO</label>
+            <label>Rondonia</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>21</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>RO</value>
+            <sys_updated_on>2026-05-28 13:07:38</sys_updated_on>
+            <value>Rondonia</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>RR</label>
+            <label>Roraima</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>22</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>RR</value>
+            <sys_updated_on>2026-05-28 13:07:38</sys_updated_on>
+            <value>Roraima</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>SC</label>
+            <label>Santa Catarina</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>23</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>SC</value>
+            <sys_updated_on>2026-05-28 13:07:38</sys_updated_on>
+            <value>Santa Catarina</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>SP</label>
+            <label>Sergipe</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>24</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>SP</value>
+            <sys_updated_on>2026-05-28 13:07:38</sys_updated_on>
+            <value>Sergipe</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>SE</label>
+            <label>Sao Paulo</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>25</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>SE</value>
+            <sys_updated_on>2026-05-28 13:07:38</sys_updated_on>
+            <value>Sao Paulo</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>TO</label>
+            <label>Tocantins</label>
             <language>en</language>
             <name>x_1523510_alloca_0_bases</name>
             <sequence>26</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 19:36:34</sys_created_on>
+            <sys_created_on>2026-05-28 12:35:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 19:36:34</sys_updated_on>
-            <value>TO</value>
+            <sys_updated_on>2026-05-28 13:07:38</sys_updated_on>
+            <value>Tocantins</value>
         </sys_choice>
     </sys_choice>
 </record_update>
