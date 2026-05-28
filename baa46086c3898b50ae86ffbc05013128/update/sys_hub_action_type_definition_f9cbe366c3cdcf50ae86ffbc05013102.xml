@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27800</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>04a41174c3d8c310ae86ffbc05013189</copied_from>
+        <copied_from_name>Convert seconds into Duration</copied_from_name>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>copy_of_convert_seconds_into_duration</internal_name>
+        <label_cache>[{"name":"{{action.seconds}}","label":"action➛seconds","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[803e547c-0d8c-4ff5-bba6-90e234e4a515].duration}}","label":"step➛Script step➛duration","type":"step","ref":"","reference_display":"","base_type":"glide_duration","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master_snapshot>2bfb2f66c3cdcf50ae86ffbc0501317a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Copy of Convert seconds into Duration</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f9cbe366c3cdcf50ae86ffbc05013102</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Copy of Convert seconds into Duration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_f9cbe366c3cdcf50ae86ffbc05013102</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:59</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=f9cbe366c3cdcf50ae86ffbc05013102"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f9cbe366c3cdcf50ae86ffbc05013102"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>f9cbe366c3cdcf50ae86ffbc05013102</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:03</sys_created_on>
+        <sys_id>1ecbe366c3cdcf50ae86ffbc050131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:03</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">decbe366c3cdcf50ae86ffbc050131a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>f9cbe366c3cdcf50ae86ffbc05013102</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:03</sys_created_on>
+        <sys_id>52cbe366c3cdcf50ae86ffbc050131dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:57</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD8acbe36643cdcf50c6c6aed4874a7963":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD8acbe36643cdcf50c6c6aed4874a7963.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4efe1097-c581-448d-8c6c-428a0e18f7c3\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD8acbe36643cdcf50c6c6aed4874a7963\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">8ecbe366c3cdcf50ae86ffbc05013178</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>f9cbe366c3cdcf50ae86ffbc05013102</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:03</sys_created_on>
+        <sys_id>d6cbe366c3cdcf50ae86ffbc050131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:03</sys_updated_on>
+        <value/>
+        <variable display_value="duration">c6cbe366c3cdcf50ae86ffbc05013171</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f9cbe366c3cdcf50ae86ffbc05013102"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>duration</field>
+        <id>f9cbe366c3cdcf50ae86ffbc05013102</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:03</sys_created_on>
+        <sys_id>9acbe366c3cdcf50ae86ffbc050131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f9cbe366c3cdcf50ae86ffbc05013102</table>
+        <value>{{step[803e547c-0d8c-4ff5-bba6-90e234e4a515].duration}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>f9cbe366c3cdcf50ae86ffbc05013102</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:03</sys_created_on>
+        <sys_id>16cbe366c3cdcf50ae86ffbc050131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f9cbe366c3cdcf50ae86ffbc05013102</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>f9cbe366c3cdcf50ae86ffbc05013102</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:03</sys_created_on>
+        <sys_id>decbe366c3cdcf50ae86ffbc050131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f9cbe366c3cdcf50ae86ffbc05013102</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=f9cbe366c3cdcf50ae86ffbc05013102^sys_idNOT IN0acbe366c3cdcf50ae86ffbc0501313e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Convert seconds into Duration">f9cbe366c3cdcf50ae86ffbc05013102</action>
+        <cid>803e547c-0d8c-4ff5-bba6-90e234e4a515</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_id>0acbe366c3cdcf50ae86ffbc0501313e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:02</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0acbe366c3cdcf50ae86ffbc0501313e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0acbe366c3cdcf50ae86ffbc0501313e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_id>46cbe366c3cdcf50ae86ffbc0501315d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:02</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0acbe366c3cdcf50ae86ffbc0501313e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_id>8acbe366c3cdcf50ae86ffbc0501315d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:02</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+outputs.duration = new GlideDuration(inputs.seconds * 1000)&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0acbe366c3cdcf50ae86ffbc0501313e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_id>8ecbe366c3cdcf50ae86ffbc0501315e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:02</sys_updated_on>
+        <value/>
+        <variable display_value="">46cbe366c3cdcf50ae86ffbc05013145</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0acbe366c3cdcf50ae86ffbc0501313e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>0acbe366c3cdcf50ae86ffbc0501313e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_id>4ecbe366c3cdcf50ae86ffbc0501315c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>0acbe366c3cdcf50ae86ffbc0501313e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_id>82cbe366c3cdcf50ae86ffbc0501315d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>seconds</field>
+        <id>0acbe366c3cdcf50ae86ffbc0501313e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_id>cacbe366c3cdcf50ae86ffbc0501315e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:02</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_0acbe366c3cdcf50ae86ffbc0501313e</table>
+        <value>{{action.seconds}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_0acbe366c3cdcf50ae86ffbc0501313e^id=0acbe366c3cdcf50ae86ffbc0501313e"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=0acbe366c3cdcf50ae86ffbc0501313e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=0acbe366c3cdcf50ae86ffbc0501313e"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=0acbe366c3cdcf50ae86ffbc0501313e^sys_idNOT IN46cbe366c3cdcf50ae86ffbc05013145"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>seconds</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">0acbe366c3cdcf50ae86ffbc0501313e</model>
+        <model_id>0acbe366c3cdcf50ae86ffbc0501313e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_0acbe366c3cdcf50ae86ffbc0501313e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_id>46cbe366c3cdcf50ae86ffbc05013145</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=0acbe366c3cdcf50ae86ffbc0501313e^sys_idNOT IN0ecbe366c3cdcf50ae86ffbc0501314d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_duration,uiTypeLabel=Duration,uiUniqueId=7134a3c9-352f-43b1-a823-b69ac683c8c9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>duration</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_duration</internal_type>
+        <label>duration</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">0acbe366c3cdcf50ae86ffbc0501313e</model>
+        <model_id>0acbe366c3cdcf50ae86ffbc0501313e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_0acbe366c3cdcf50ae86ffbc0501313e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_id>0ecbe366c3cdcf50ae86ffbc0501314d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0acbe366c3cdcf50ae86ffbc0501313e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>duration</element>
+        <help/>
+        <hint/>
+        <label>duration</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_0acbe366c3cdcf50ae86ffbc0501313e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_id>cacbe366c3cdcf50ae86ffbc05013152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=f9cbe366c3cdcf50ae86ffbc05013102^sys_idNOT IN31cbe366c3cdcf50ae86ffbc0501310c"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=01849ad5-4569-4fca-a180-c761460814fa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>seconds</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>seconds</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Convert seconds into Duration">f9cbe366c3cdcf50ae86ffbc05013102</model>
+        <model_id>f9cbe366c3cdcf50ae86ffbc05013102</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_f9cbe366c3cdcf50ae86ffbc05013102</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:01</sys_created_on>
+        <sys_id>31cbe366c3cdcf50ae86ffbc0501310c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=31cbe366c3cdcf50ae86ffbc0501310c"/>
+    <sys_hub_action_output action="delete_multiple" query="model=f9cbe366c3cdcf50ae86ffbc05013102^sys_idNOT IN8ecbe366c3cdcf50ae86ffbc05013178,c6cbe366c3cdcf50ae86ffbc05013171,decbe366c3cdcf50ae86ffbc050131a4"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8acbe36643cdcf50c6c6aed4874a7963</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>baa46086c3898b50ae86ffbc05013128</scope_name>
+        <serialized_content>{"FlowDesigner:FD8acbe36643cdcf50c6c6aed4874a7963":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD8acbe36643cdcf50c6c6aed4874a7963.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4efe1097-c581-448d-8c6c-428a0e18f7c3\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD8acbe36643cdcf50c6c6aed4874a7963\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ecbe366c3cdcf50ae86ffbc05013163</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:56</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD8acbe36643cdcf50c6c6aed4874a7963,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=4efe1097-c581-448d-8c6c-428a0e18f7c3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of Convert seconds into Duration">f9cbe366c3cdcf50ae86ffbc05013102</model>
+        <model_id>f9cbe366c3cdcf50ae86ffbc05013102</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_f9cbe366c3cdcf50ae86ffbc05013102</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_id>8ecbe366c3cdcf50ae86ffbc05013178</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8ecbe366c3cdcf50ae86ffbc05013178"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8ecbe366c3cdcf50ae86ffbc05013178"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_duration,uiTypeLabel=Duration,uiUniqueId=90f8669f-b17c-4658-a65a-3c83d26f622e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>duration</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">glide_duration</internal_type>
+        <label>duration</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Convert seconds into Duration">f9cbe366c3cdcf50ae86ffbc05013102</model>
+        <model_id>f9cbe366c3cdcf50ae86ffbc05013102</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_f9cbe366c3cdcf50ae86ffbc05013102</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_id>c6cbe366c3cdcf50ae86ffbc05013171</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c6cbe366c3cdcf50ae86ffbc05013171"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c6cbe366c3cdcf50ae86ffbc05013171"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=302b1e2c-80ae-4212-88da-15aa00e3bdb5,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Convert seconds into Duration">f9cbe366c3cdcf50ae86ffbc05013102</model>
+        <model_id>f9cbe366c3cdcf50ae86ffbc05013102</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_f9cbe366c3cdcf50ae86ffbc05013102</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:03</sys_created_on>
+        <sys_id>decbe366c3cdcf50ae86ffbc050131a4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=decbe366c3cdcf50ae86ffbc050131a4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=decbe366c3cdcf50ae86ffbc050131a4"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f9cbe366c3cdcf50ae86ffbc05013102"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=f9cbe366c3cdcf50ae86ffbc05013102^sys_idNOT IN1acbe366c3cdcf50ae86ffbc050131df"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Copy of Convert seconds into Duration">f9cbe366c3cdcf50ae86ffbc05013102</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:03</sys_created_on>
+        <sys_id>1acbe366c3cdcf50ae86ffbc050131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:03</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=1acbe366c3cdcf50ae86ffbc050131df"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>seconds</element>
+        <help/>
+        <hint/>
+        <label>seconds</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f9cbe366c3cdcf50ae86ffbc05013102</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_id>82cbe366c3cdcf50ae86ffbc05013112</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_f9cbe366c3cdcf50ae86ffbc05013102"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f9cbe366c3cdcf50ae86ffbc05013102</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:03</sys_created_on>
+        <sys_id>1acbe366c3cdcf50ae86ffbc050131a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>duration</element>
+        <help/>
+        <hint/>
+        <label>duration</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f9cbe366c3cdcf50ae86ffbc05013102</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:02</sys_created_on>
+        <sys_id>c6cbe366c3cdcf50ae86ffbc05013177</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f9cbe366c3cdcf50ae86ffbc05013102</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:03</sys_created_on>
+        <sys_id>d2cbe366c3cdcf50ae86ffbc050131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_f9cbe366c3cdcf50ae86ffbc05013102"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=f9cbe366c3cdcf50ae86ffbc05013102^sys_idNOT INd40c6f66c3cdcf50ae86ffbc05013178"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Copy of Convert seconds into Duration">f9cbe366c3cdcf50ae86ffbc05013102</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"d40c6f66c3cdcf50ae86ffbc05013178","name":"plan","plan_signature":null}}</plan>
+        <snapshot>fffb6f66c3cdcf50ae86ffbc05013107</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:51:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d40c6f66c3cdcf50ae86ffbc05013178</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:51:00</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27800</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>04a41174c3d8c310ae86ffbc05013189</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>copy_of_convert_seconds_into_duration</internal_name>
+        <label_cache>[{"name":"{{action.seconds}}","label":"action➛seconds","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[803e547c-0d8c-4ff5-bba6-90e234e4a515].duration}}","label":"step➛Script step➛duration","type":"step","ref":"","reference_display":"","base_type":"glide_duration","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master>true</master>
+        <name>Copy of Convert seconds into Duration</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Copy of Convert seconds into Duration">f9cbe366c3cdcf50ae86ffbc05013102</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2bfb2f66c3cdcf50ae86ffbc0501317a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:57</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2bfb2f66c3cdcf50ae86ffbc0501317a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2bfb2f66c3cdcf50ae86ffbc0501317a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>2bfb2f66c3cdcf50ae86ffbc0501317a</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:59</sys_created_on>
+        <sys_id>37fb6f66c3cdcf50ae86ffbc05013103</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">73fb2f66c3cdcf50ae86ffbc050131e6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>2bfb2f66c3cdcf50ae86ffbc0501317a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:59</sys_created_on>
+        <sys_id>7bfb6f66c3cdcf50ae86ffbc05013103</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:59</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">b7fb2f66c3cdcf50ae86ffbc050131df</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>2bfb2f66c3cdcf50ae86ffbc0501317a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:59</sys_created_on>
+        <sys_id>fffb6f66c3cdcf50ae86ffbc05013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:59</sys_updated_on>
+        <value/>
+        <variable display_value="duration">bbfb2f66c3cdcf50ae86ffbc050131cb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2bfb2f66c3cdcf50ae86ffbc0501317a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>duration</field>
+        <id>2bfb2f66c3cdcf50ae86ffbc0501317a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:59</sys_created_on>
+        <sys_id>b3fb6f66c3cdcf50ae86ffbc05013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2bfb2f66c3cdcf50ae86ffbc0501317a</table>
+        <value>{{step[803e547c-0d8c-4ff5-bba6-90e234e4a515].duration}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>2bfb2f66c3cdcf50ae86ffbc0501317a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:59</sys_created_on>
+        <sys_id>3ffb6f66c3cdcf50ae86ffbc05013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2bfb2f66c3cdcf50ae86ffbc0501317a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>2bfb2f66c3cdcf50ae86ffbc0501317a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:59</sys_created_on>
+        <sys_id>f7fb6f66c3cdcf50ae86ffbc05013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2bfb2f66c3cdcf50ae86ffbc0501317a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=2bfb2f66c3cdcf50ae86ffbc0501317a^sys_idNOT INa7fb2f66c3cdcf50ae86ffbc050131a7"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Convert seconds into Duration">2bfb2f66c3cdcf50ae86ffbc0501317a</action>
+        <cid>803e547c-0d8c-4ff5-bba6-90e234e4a515</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>a7fb2f66c3cdcf50ae86ffbc050131a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a7fb2f66c3cdcf50ae86ffbc050131a7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a7fb2f66c3cdcf50ae86ffbc050131a7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>bffb2f66c3cdcf50ae86ffbc050131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a7fb2f66c3cdcf50ae86ffbc050131a7</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>f3fb2f66c3cdcf50ae86ffbc050131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+outputs.duration = new GlideDuration(inputs.seconds * 1000)&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a7fb2f66c3cdcf50ae86ffbc050131a7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>f7fb2f66c3cdcf50ae86ffbc050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+        <value/>
+        <variable display_value="seconds">73fb2f66c3cdcf50ae86ffbc050131ae</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a7fb2f66c3cdcf50ae86ffbc050131a7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>a7fb2f66c3cdcf50ae86ffbc050131a7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>b7fb2f66c3cdcf50ae86ffbc050131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>a7fb2f66c3cdcf50ae86ffbc050131a7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>fbfb2f66c3cdcf50ae86ffbc050131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>seconds</field>
+        <id>a7fb2f66c3cdcf50ae86ffbc050131a7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>37fb2f66c3cdcf50ae86ffbc050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a7fb2f66c3cdcf50ae86ffbc050131a7</table>
+        <value>{{action.seconds}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_a7fb2f66c3cdcf50ae86ffbc050131a7^id=a7fb2f66c3cdcf50ae86ffbc050131a7"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=a7fb2f66c3cdcf50ae86ffbc050131a7"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=a7fb2f66c3cdcf50ae86ffbc050131a7"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a7fb2f66c3cdcf50ae86ffbc050131a7^sys_idNOT IN73fb2f66c3cdcf50ae86ffbc050131ae"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>seconds</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>seconds</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">a7fb2f66c3cdcf50ae86ffbc050131a7</model>
+        <model_id>a7fb2f66c3cdcf50ae86ffbc050131a7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a7fb2f66c3cdcf50ae86ffbc050131a7</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>73fb2f66c3cdcf50ae86ffbc050131ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a7fb2f66c3cdcf50ae86ffbc050131a7^sys_idNOT IN77fb2f66c3cdcf50ae86ffbc050131b5"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_duration,uiTypeLabel=Duration,uiUniqueId=7134a3c9-352f-43b1-a823-b69ac683c8c9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>duration</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_duration</internal_type>
+        <label>duration</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">a7fb2f66c3cdcf50ae86ffbc050131a7</model>
+        <model_id>a7fb2f66c3cdcf50ae86ffbc050131a7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a7fb2f66c3cdcf50ae86ffbc050131a7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>77fb2f66c3cdcf50ae86ffbc050131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a7fb2f66c3cdcf50ae86ffbc050131a7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>duration</element>
+        <help/>
+        <hint/>
+        <label>duration</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_a7fb2f66c3cdcf50ae86ffbc050131a7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>37fb2f66c3cdcf50ae86ffbc050131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=2bfb2f66c3cdcf50ae86ffbc0501317a^sys_idNOT INaffb2f66c3cdcf50ae86ffbc05013180"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=01849ad5-4569-4fca-a180-c761460814fa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>seconds</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>seconds</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Convert seconds into Duration">2bfb2f66c3cdcf50ae86ffbc0501317a</model>
+        <model_id>2bfb2f66c3cdcf50ae86ffbc0501317a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_2bfb2f66c3cdcf50ae86ffbc0501317a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:57</sys_created_on>
+        <sys_id>affb2f66c3cdcf50ae86ffbc05013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=affb2f66c3cdcf50ae86ffbc05013180"/>
+    <sys_hub_action_output action="delete_multiple" query="model=2bfb2f66c3cdcf50ae86ffbc0501317a^sys_idNOT IN73fb2f66c3cdcf50ae86ffbc050131e6,b7fb2f66c3cdcf50ae86ffbc050131df,bbfb2f66c3cdcf50ae86ffbc050131cb"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=302b1e2c-80ae-4212-88da-15aa00e3bdb5,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Convert seconds into Duration">2bfb2f66c3cdcf50ae86ffbc0501317a</model>
+        <model_id>2bfb2f66c3cdcf50ae86ffbc0501317a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2bfb2f66c3cdcf50ae86ffbc0501317a</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>73fb2f66c3cdcf50ae86ffbc050131e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=73fb2f66c3cdcf50ae86ffbc050131e6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=73fb2f66c3cdcf50ae86ffbc050131e6"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=4efe1097-c581-448d-8c6c-428a0e18f7c3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of Convert seconds into Duration">2bfb2f66c3cdcf50ae86ffbc0501317a</model>
+        <model_id>2bfb2f66c3cdcf50ae86ffbc0501317a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2bfb2f66c3cdcf50ae86ffbc0501317a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>b7fb2f66c3cdcf50ae86ffbc050131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b7fb2f66c3cdcf50ae86ffbc050131df"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b7fb2f66c3cdcf50ae86ffbc050131df"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_duration,uiTypeLabel=Duration,uiUniqueId=90f8669f-b17c-4658-a65a-3c83d26f622e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>duration</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">glide_duration</internal_type>
+        <label>duration</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Convert seconds into Duration">2bfb2f66c3cdcf50ae86ffbc0501317a</model>
+        <model_id>2bfb2f66c3cdcf50ae86ffbc0501317a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2bfb2f66c3cdcf50ae86ffbc0501317a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>bbfb2f66c3cdcf50ae86ffbc050131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bbfb2f66c3cdcf50ae86ffbc050131cb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bbfb2f66c3cdcf50ae86ffbc050131cb"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2bfb2f66c3cdcf50ae86ffbc0501317a"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=2bfb2f66c3cdcf50ae86ffbc0501317a^sys_idNOT IN3bfb6f66c3cdcf50ae86ffbc05013106"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Copy of Convert seconds into Duration">2bfb2f66c3cdcf50ae86ffbc0501317a</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:59</sys_created_on>
+        <sys_id>3bfb6f66c3cdcf50ae86ffbc05013106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:59</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=3bfb6f66c3cdcf50ae86ffbc05013106"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>seconds</element>
+        <help/>
+        <hint/>
+        <label>seconds</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2bfb2f66c3cdcf50ae86ffbc0501317a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>effb2f66c3cdcf50ae86ffbc0501319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_2bfb2f66c3cdcf50ae86ffbc0501317a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2bfb2f66c3cdcf50ae86ffbc0501317a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>bbfb2f66c3cdcf50ae86ffbc050131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2bfb2f66c3cdcf50ae86ffbc0501317a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:59</sys_created_on>
+        <sys_id>bbfb2f66c3cdcf50ae86ffbc050131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>duration</element>
+        <help/>
+        <hint/>
+        <label>duration</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2bfb2f66c3cdcf50ae86ffbc0501317a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 17:50:58</sys_created_on>
+        <sys_id>fffb2f66c3cdcf50ae86ffbc050131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 17:50:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_2bfb2f66c3cdcf50ae86ffbc0501317a"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>f9cbe366c3cdcf50ae86ffbc05013102</sys_id>
+        <latest_snapshot>2bfb2f66c3cdcf50ae86ffbc0501317a</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch11-12-16-2025_01-04-2026_2103.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="AllocateNow Dashboard">0b2f37eac3410390ae86ffbc050131d7</dashboard>
+        <group display_value="Allocation Admins" name="Allocation Admins">fa635076c3050390ae86ffbc05013196</group>
+        <owner>false</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-27 20:55:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4c2698bac3050390ae86ffbc050131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0b2f37eac3410390ae86ffbc050131d7</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name>par_dashboard_permission_4c2698bac3050390ae86ffbc050131fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-27 20:55:02</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

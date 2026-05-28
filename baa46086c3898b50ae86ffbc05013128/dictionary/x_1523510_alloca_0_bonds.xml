@@ -3,6 +3,6 @@
         <element label="Base" mandatory="true" max_length="32" name="base" reference="x_1523510_alloca_0_bases" type="reference"/>
         <element label="Reproval Reason" max_length="400" name="reproval_reason" type="string"/>
         <element label="Function" mandatory="true" max_length="32" name="function" reference="x_1523510_alloca_0_functions" type="reference"/>
-        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="User" max_length="32" name="user" reference="sys_user" type="reference" use_dynamic_default="true"/>
     </element>
 </database>

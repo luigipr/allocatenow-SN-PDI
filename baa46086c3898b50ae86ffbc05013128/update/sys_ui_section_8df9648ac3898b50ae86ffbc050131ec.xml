@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 16:24:17</sys_created_on>
-            <sys_id>d6f481c2c38d8b50ae86ffbc050131cf</sys_id>
+            <sys_created_on>2026-05-28 12:14:15</sys_created_on>
+            <sys_id>c988e77ac34d4390ae86ffbc05013184</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1523510_alloca_0_bases" sys_domain="global" view="Default view">8df9648ac3898b50ae86ffbc050131ec</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 16:24:17</sys_updated_on>
+            <sys_updated_on>2026-05-28 12:14:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>city</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 16:24:17</sys_created_on>
-            <sys_id>e2f481c2c38d8b50ae86ffbc050131d0</sys_id>
+            <sys_created_on>2026-05-28 12:14:15</sys_created_on>
+            <sys_id>8188e77ac34d4390ae86ffbc05013186</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1523510_alloca_0_bases" sys_domain="global" view="Default view">8df9648ac3898b50ae86ffbc050131ec</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 16:24:17</sys_updated_on>
+            <sys_updated_on>2026-05-28 12:14:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,55 +32,111 @@
             <element>manager</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 16:24:17</sys_created_on>
-            <sys_id>aef481c2c38d8b50ae86ffbc050131d0</sys_id>
+            <sys_created_on>2026-05-28 12:14:15</sys_created_on>
+            <sys_id>0188e77ac34d4390ae86ffbc05013187</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1523510_alloca_0_bases" sys_domain="global" view="Default view">8df9648ac3898b50ae86ffbc050131ec</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 16:24:17</sys_updated_on>
+            <sys_updated_on>2026-05-28 12:14:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>latitude</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-28 12:14:15</sys_created_on>
+            <sys_id>8d88e77ac34d4390ae86ffbc05013187</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1523510_alloca_0_bases" sys_domain="global" view="Default view">8df9648ac3898b50ae86ffbc050131ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-28 12:14:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>temperature_c</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-28 12:14:15</sys_created_on>
+            <sys_id>0d88e77ac34d4390ae86ffbc05013188</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1523510_alloca_0_bases" sys_domain="global" view="Default view">8df9648ac3898b50ae86ffbc050131ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-28 12:14:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 16:24:17</sys_created_on>
-            <sys_id>6af481c2c38d8b50ae86ffbc050131d1</sys_id>
+            <sys_created_on>2026-05-28 12:14:15</sys_created_on>
+            <sys_id>8988e77ac34d4390ae86ffbc05013189</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1523510_alloca_0_bases" sys_domain="global" view="Default view">8df9648ac3898b50ae86ffbc050131ec</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 16:24:17</sys_updated_on>
+            <sys_updated_on>2026-05-28 12:14:15</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>capacity</element>
-            <position>4</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 16:24:17</sys_created_on>
-            <sys_id>26f481c2c38d8b50ae86ffbc050131d2</sys_id>
+            <sys_created_on>2026-05-28 12:14:15</sys_created_on>
+            <sys_id>0988e77ac34d4390ae86ffbc0501318a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1523510_alloca_0_bases" sys_domain="global" view="Default view">8df9648ac3898b50ae86ffbc050131ec</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 16:24:17</sys_updated_on>
+            <sys_updated_on>2026-05-28 12:14:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>5</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-25 16:24:17</sys_created_on>
-            <sys_id>eef481c2c38d8b50ae86ffbc050131d2</sys_id>
+            <sys_created_on>2026-05-28 12:14:15</sys_created_on>
+            <sys_id>8588e77ac34d4390ae86ffbc0501318b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1523510_alloca_0_bases" sys_domain="global" view="Default view">8df9648ac3898b50ae86ffbc050131ec</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-25 16:24:17</sys_updated_on>
+            <sys_updated_on>2026-05-28 12:14:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_capacity</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-28 12:14:15</sys_created_on>
+            <sys_id>0588e77ac34d4390ae86ffbc0501318c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1523510_alloca_0_bases" sys_domain="global" view="Default view">8df9648ac3898b50ae86ffbc050131ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-28 12:14:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>longitude</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-28 12:14:15</sys_created_on>
+            <sys_id>8188e77ac34d4390ae86ffbc0501318d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1523510_alloca_0_bases" sys_domain="global" view="Default view">8df9648ac3898b50ae86ffbc050131ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-28 12:14:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

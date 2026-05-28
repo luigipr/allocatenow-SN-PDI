@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1523510_alloca_0_bonds</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>return current capacity before deletion</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var base = new GlideRecord('x_1523510_alloca_0_bases');
+
+	if (base.get(current.getValue('base'))) {
+
+		var currentCapacity = parseInt(base.getValue('current_capacity'), 10);
+		var maxCapacity = parseInt(base.getValue('capacity'), 10);
+
+		// Só aumenta se current_capacity for menor que capacity
+		if (currentCapacity < maxCapacity) {
+
+			base.setValue('current_capacity', currentCapacity + 1);
+			base.update();
+
+		}
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-28 01:13:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>adde85f6c3c90390ae86ffbc050131f9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>return current capacity before deletion</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
+        <sys_update_name>sys_script_adde85f6c3c90390ae86ffbc050131f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-28 01:23:59</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=adde85f6c3c90390ae86ffbc050131f9"/>
+</record_update>

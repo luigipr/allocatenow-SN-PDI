@@ -5,19 +5,19 @@
         <field>state</field>
         <field_message/>
         <field_message_type>none</field_message_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-26 00:27:11</sys_created_on>
         <sys_id>8173bacac3c9cb50ae86ffbc05013156</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>state</sys_name>
         <sys_package display_value="AllocateNow" source="x_1523510_alloca_0">baa46086c3898b50ae86ffbc05013128</sys_package>
         <sys_policy/>
         <sys_scope display_value="AllocateNow">baa46086c3898b50ae86ffbc05013128</sys_scope>
         <sys_update_name>sys_ui_policy_action_8173bacac3c9cb50ae86ffbc05013156</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-26 00:27:11</sys_updated_on>
+        <sys_updated_on>2026-05-28 14:06:32</sys_updated_on>
         <table>x_1523510_alloca_0_bases</table>
         <ui_policy display_value="bases mandatory fields">9d727a4ac3c9cb50ae86ffbc050131db</ui_policy>
         <value/>
